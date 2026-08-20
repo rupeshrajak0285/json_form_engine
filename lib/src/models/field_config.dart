@@ -184,7 +184,8 @@ class FieldConfig {
   /// Value shown when the form first builds (wins over [defaultValue]).
   final Object? initialValue;
 
-  /// Value restored on [reset] when no initial value exists.
+  /// Value restored on [DynamicFormController.reset] when no initial
+  /// value exists.
   final Object? defaultValue;
 
   /// Statically required (see also [requiredWhen]).

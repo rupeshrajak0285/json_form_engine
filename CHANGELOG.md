@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1
+
+- Shortened the pubspec `description` to fit pub.dev's 60-180 character
+  scoring range (it was previously too long, costing the full 10-point
+  "valid pubspec.yaml" score).
+- Fixed two broken dartdoc reference links (`[DynamamicForm]` typo,
+  an unresolved `[reset]` link) flagged by pana's analysis.
+
 ## 0.3.0
 
 - **Built-in media pickers**: the `image`, `camera` and `file` field types

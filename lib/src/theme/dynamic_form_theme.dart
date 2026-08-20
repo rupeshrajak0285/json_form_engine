@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/field_style.dart';
 
-/// Visual + behavioral customization for a [DynamamicForm] subtree.
+/// Visual + behavioral customization for a [DynamicForm] subtree.
 ///
 /// Wrap your form (or app) in a [DynamicFormTheme] to override spacing,
 /// decorations, and the error/loading widgets:
